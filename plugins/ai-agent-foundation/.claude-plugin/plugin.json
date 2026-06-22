@@ -1,0 +1,8 @@
+{
+  "name": "ai-agent-foundation",
+  "description": "The AI Agent Foundation: three skills (Voice, Brand, Local) that personalize how Claude writes for you. The required base for the AI Agent Team plugin.",
+  "author": {
+    "name": "Tracy with PorchLyte + Agent Social Haus",
+    "url": "https://porchlyte.com"
+  }
+}
