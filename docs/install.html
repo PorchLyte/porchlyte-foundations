@@ -998,7 +998,7 @@
         <div class="step-desc">When it's on, Anthropic can use your conversations to train future versions of Claude. Off keeps them yours, which matters when you're talking about clients, listings, and your market.</div>
         <div class="tip">
           <div class="tip-label">Tip</div>
-          <div class="tip-body">Do this before you run any of the setup commands below, so nothing flows through with the setting still on.</div>
+          <div class="tip-body">Do this before the setup steps below, so nothing flows through with the setting still on.</div>
         </div>
       </div>
     </div>
@@ -1010,13 +1010,13 @@
           <div class="checkbox" data-checkbox="4"></div>
           <div class="step-title">Add the Foundation marketplace.</div>
         </div>
-        <div class="step-desc">Open a new chat in the Claude desktop app. Type this command and press Enter. You only do this once.</div>
+        <div class="step-desc">In the Claude desktop app, open the left sidebar and click <strong>Customize</strong>, then the <strong>Plugins</strong> tab. Click <strong>Add</strong> at the top right, choose <strong>Add marketplace</strong>, and paste in the address below. You only do this once.</div>
         <div class="cmd-block">
-          <div class="cmd"><code>/plugin marketplace add PorchLyte/porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="/plugin marketplace add PorchLyte/porchlyte-foundations">Copy</button></div>
+          <div class="cmd"><code>PorchLyte/porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="PorchLyte/porchlyte-foundations">Copy</button></div>
         </div>
         <div class="tip">
           <div class="tip-label">Tip</div>
-          <div class="tip-body">Run each command in its own message. Wait for Claude to finish before you send the next one.</div>
+          <div class="tip-body">A marketplace named <strong>porchlyte-foundations</strong> appears in your Plugins panel. That's the catalog your plugin installs from.</div>
         </div>
       </div>
     </div>
@@ -1028,13 +1028,10 @@
           <div class="checkbox" data-checkbox="5"></div>
           <div class="step-title">Install AI Agent Foundation.</div>
         </div>
-        <div class="step-desc">In the same chat, type the install command. This is the only thing you install today.</div>
-        <div class="cmd-block">
-          <div class="cmd"><code>/plugin install ai-agent-foundation@porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="/plugin install ai-agent-foundation@porchlyte-foundations">Copy</button></div>
-        </div>
+        <div class="step-desc">Under the new <strong>porchlyte-foundations</strong> marketplace, find the <strong>AI Agent Foundation</strong> card and click the <strong>+</strong> to install it. That's the whole install. No file to download, and it updates itself later.</div>
         <div class="tip">
           <div class="tip-label">Tip</div>
-          <div class="tip-body">To confirm it's active, open <strong>Customize &gt; Plugins</strong>. You should see <strong>AI Agent Foundation</strong> listed.</div>
+          <div class="tip-body">To confirm it's active, it shows under <strong>Customize &gt; Plugins</strong> as <strong>AI Agent Foundation</strong>.</div>
         </div>
       </div>
     </div>
@@ -1128,10 +1125,7 @@
       <h2>Getting updates</h2>
     </div>
     <p class="section-hint">When the Foundation is improved, you don't reinstall anything.</p>
-    <div class="cmd-block">
-      <div class="cmd"><code>/plugin marketplace update porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="/plugin marketplace update porchlyte-foundations">Copy</button></div>
-    </div>
-    <p class="section-note">Run that in any Cowork chat and Claude pulls the latest version. Your Voice, Brand, and Local answers stay exactly as you set them up. Updates only change how the Foundation works, not your personalization.</p>
+    <p class="section-note">In <strong>Customize &gt; Plugins</strong>, click the <strong>&middot;&middot;&middot;</strong> next to the <strong>porchlyte-foundations</strong> marketplace and choose <strong>Update</strong>. Claude pulls the latest version. Your Voice, Brand, and Local answers stay exactly as you set them up. Updates only change how the Foundation works, not your personalization.</p>
   </section>
 
   <!-- FAQ -->

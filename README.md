@@ -10,16 +10,19 @@ This marketplace holds one plugin:
 
 ## How to install (for agents using these)
 
-In the Claude desktop app with Cowork enabled, open a chat and run these commands one at a time:
+In the Claude desktop app, you add this marketplace through the Plugins panel (not a chat command):
 
-```
-/plugin marketplace add PorchLyte/porchlyte-foundations
-/plugin install ai-agent-foundation@porchlyte-foundations
-```
+1. Open the left sidebar, click **Customize**, then the **Plugins** tab.
+2. Click **Add** (top right), choose **Add marketplace**, and paste in:
 
-> Replace `PorchLyte` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
+   ```
+   PorchLyte/porchlyte-foundations
+   ```
 
-Then set up your Foundation:
+   > The pattern is always `owner/repo`. Replace `PorchLyte` if this repo moves.
+3. Under the new **porchlyte-foundations** marketplace, find **AI Agent Foundation** and click **+** to install it.
+
+Then set up your Foundation by typing this slash command in a chat:
 
 ```
 /foundations-setup
@@ -27,15 +30,13 @@ Then set up your Foundation:
 
 That walks you through Voice, Brand, and Local one at a time (about 15–20 minutes for all three). You can stop after one and come back later. Your answers save.
 
+> Note: `/plugin marketplace add` and `/plugin install` are Claude **Code** (CLI) commands. They do **not** work in the Cowork desktop app, where you install through the Plugins panel above. Only commands that come from an installed plugin (like `/foundations-setup`) work as slash commands in Cowork.
+
 When you're ready for the team, head to the [AI Agent Team repo](https://github.com/PorchLyte/porchlyte-agents) and run `/set-me-up`.
 
 ## How updates work
 
-Once someone has added the marketplace, they get your latest version automatically. When you push a change to this repo, their Claude picks it up the next time it refreshes the marketplace. If they want to pull updates immediately, they run:
-
-```
-/plugin marketplace update porchlyte-foundations
-```
+Once someone has added the marketplace, they get your latest version automatically. When you push a change to this repo, their Claude picks it up the next time it refreshes the marketplace. To pull updates immediately, in **Customize > Plugins** they click the **···** next to the **porchlyte-foundations** marketplace and choose **Update**.
 
 No new zip. No re-uploading. You edit here, they get it there.
 

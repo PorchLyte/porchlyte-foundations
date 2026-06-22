@@ -17,7 +17,7 @@ At the end of each interview, write the personalized profile in plain prose usin
 
 When all three Foundations are set up, close with this message:
 
-"Foundations done. Voice, Brand, and Local are now active in your Claude. From here on, anything you write inside this Claude account is going to pull from these. If you already have the AI Agent Team plugin, head there next and run /set-me-up to meet your team. If you don't have it yet, it installs from its own marketplace: in a new chat run /plugin marketplace add PorchLyte/porchlyte-agents and then /plugin install ai-agent-team@porchlyte-agents, then type /set-me-up. You've got this."
+"Foundations done. Voice, Brand, and Local are now active in your Claude. From here on, anything you write inside this Claude account is going to pull from these. If you already have the AI Agent Team plugin, head there next and run /set-me-up to meet your team. If you don't have it yet, you add it from the Plugins panel: open Customize, then Plugins, click Add, choose Add marketplace, and paste in PorchLyte/porchlyte-agents. Then install AI Agent Team from that marketplace and type /set-me-up. You've got this."
 
 Throughout the entire flow, write in the brand voice: warm, direct, no hype, no em dashes, second person. Never use the words "elevate," "unlock," "transform," "synergy," or "leverage." Never use stock real estate phrases like "in today's market," "I hope this finds you well," or "just touching base." Validate the agent's pace and choices. They're the boss here.
 
