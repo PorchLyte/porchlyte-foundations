@@ -960,7 +960,7 @@
     <div class="section-header">
       <h2>The Foundation Setup</h2>
       <div class="progress">
-        <span id="progress-text">0 of 6 complete</span>
+        <span id="progress-text">0 of 7 complete</span>
         <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
       </div>
     </div>
@@ -970,9 +970,14 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="1"></div>
-          <div class="step-title">Get Claude Pro ($20/month).</div>
+          <div class="step-title">Turn off "Help improve Claude."</div>
         </div>
-        <div class="step-desc">Go to <strong>claude.ai</strong>, create an account if you don't have one, and upgrade to Claude Pro. The free version won't run the plugins. Pro is the plan you need.</div>
+        <div class="step-desc">Start here. Go to <strong>claude.ai</strong> and create your account, then go straight to <strong>Settings &gt; Privacy</strong> and toggle <strong>Help improve Claude</strong> off.</div>
+        <div class="step-desc">When it's on, Anthropic can use your conversations to train future versions of Claude. Off keeps them yours, which matters the moment you start talking about clients, listings, and your market.</div>
+        <div class="tip">
+          <div class="tip-label">Tip</div>
+          <div class="tip-body">It's the same setting in the web and the desktop app. Switch it off first, before anything else flows through.</div>
+        </div>
       </div>
     </div>
 
@@ -981,9 +986,9 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="2"></div>
-          <div class="step-title">Download the Claude desktop app.</div>
+          <div class="step-title">Get Claude Pro ($20/month).</div>
         </div>
-        <div class="step-desc">The plugins live inside a feature called <strong>Cowork</strong>, which only runs on the desktop app (Mac or Windows). Not the browser. Not mobile. Download it from claude.ai once you've signed in to Pro.</div>
+        <div class="step-desc">Now upgrade the account you just made to <strong>Claude Pro</strong> at <strong>claude.ai</strong>. The free version won't run the plugins. Pro is the plan you need.</div>
       </div>
     </div>
 
@@ -992,14 +997,9 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="3"></div>
-          <div class="step-title">Turn off "Help improve Claude."</div>
+          <div class="step-title">Download the Claude desktop app.</div>
         </div>
-        <div class="step-desc">This one matters. In the desktop app, go to <strong>Settings &gt; Privacy &gt; Help improve Claude</strong> and toggle it off.</div>
-        <div class="step-desc">When it's on, Anthropic can use your conversations to train future versions of Claude. Off keeps them yours, which matters when you're talking about clients, listings, and your market.</div>
-        <div class="tip">
-          <div class="tip-label">Tip</div>
-          <div class="tip-body">Do this before the setup steps below, so nothing flows through with the setting still on.</div>
-        </div>
+        <div class="step-desc">The plugins live inside a feature called <strong>Cowork</strong>, which only runs on the desktop app (Mac or Windows). Not mobile. Download it from claude.ai once you're signed in to Pro.</div>
       </div>
     </div>
 
@@ -1008,15 +1008,13 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="4"></div>
-          <div class="step-title">Add the Foundation marketplace.</div>
+          <div class="step-title">Install the Claude browser extension.</div>
         </div>
-        <div class="step-desc">In the Claude desktop app, open the left sidebar and click <strong>Customize</strong>, then the <strong>Plugins</strong> tab. Click <strong>Add</strong> at the top right, choose <strong>Add marketplace</strong>, and paste in the address below. You only do this once.</div>
-        <div class="cmd-block">
-          <div class="cmd"><code>PorchLyte/porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="PorchLyte/porchlyte-foundations">Copy</button></div>
-        </div>
+        <div class="step-desc">Some of the workflows inside Agent AI Studio have Claude work right alongside you in your browser, reading the page you're on so it can research, summarize, and organize without you copying anything back and forth.</div>
+        <div class="step-desc">Go to <strong>claude.ai/chrome</strong>, click <strong>Add to Chrome</strong>, then sign in with the same Claude account you've been using and allow access when Claude asks, on sites you trust. It's included with your paid plan, so there's nothing extra to buy.</div>
         <div class="tip">
           <div class="tip-label">Tip</div>
-          <div class="tip-body">A marketplace named <strong>porchlyte-foundations</strong> appears in your Plugins panel. That's the catalog your plugin installs from.</div>
+          <div class="tip-body">Pin it so it's always one click away. Click the puzzle piece icon at the top right of Chrome, find Claude, and click the pin.</div>
         </div>
       </div>
     </div>
@@ -1026,12 +1024,12 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="5"></div>
-          <div class="step-title">Install AI Agent Foundation.</div>
+          <div class="step-title">Add the Foundation marketplace.</div>
         </div>
-        <div class="step-desc">Under the new <strong>porchlyte-foundations</strong> marketplace, find the <strong>AI Agent Foundation</strong> card and click the <strong>+</strong> to install it. That's the whole install. No file to download, and it updates itself later.</div>
-        <div class="tip">
-          <div class="tip-label">Tip</div>
-          <div class="tip-body">To confirm it's active, it shows under <strong>Customize &gt; Plugins</strong> as <strong>AI Agent Foundation</strong>.</div>
+        <div class="step-desc">In the desktop app, click <strong>Customize</strong> in the left sidebar. Click the <strong>+</strong> icon next to <strong>Personal plugins</strong>, choose <strong>Create plugin</strong>, then <strong>Add marketplace</strong>, then <strong>Add from a repository</strong>.</div>
+        <div class="step-desc">Paste the address below into the repository field, then click the black <strong>Sync</strong> button. You only do this once.</div>
+        <div class="cmd-block">
+          <div class="cmd"><code>PorchLyte/porchlyte-foundations</code><button class="cmd-copy" type="button" data-copy="PorchLyte/porchlyte-foundations">Copy</button></div>
         </div>
       </div>
     </div>
@@ -1041,11 +1039,22 @@
       <div class="step-body">
         <div class="step-top">
           <div class="checkbox" data-checkbox="6"></div>
-          <div class="step-title">Run /foundations-setup.</div>
+          <div class="step-title">Activate AI Agent Foundation.</div>
         </div>
-        <div class="step-desc">Open a new chat and type the command below. Claude walks you through a short interview about your voice, brand, and local market. Plan on about 15 to 20 minutes for all three. You can stop after one and come back later. Your answers save.</div>
+        <div class="step-desc">After it syncs, the <strong>AI Agent Foundation</strong> plugin shows up. Click the <strong>+</strong> button next to it to fully activate it. That's the whole install. No file to download, and it updates itself later.</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="7">
+      <div class="step-num">07</div>
+      <div class="step-body">
+        <div class="step-top">
+          <div class="checkbox" data-checkbox="7"></div>
+          <div class="step-title">Run the setup command.</div>
+        </div>
+        <div class="step-desc">Start a new chat with <strong>Cowork</strong> selected (it&rsquo;s a tab at the top or a toggle right in the message box, depending on your version) and type the command below. Claude walks you through a short interview about your voice, brand, and local market. Plan on about 15 to 20 minutes for all three. You can stop after one and come back later. Your answers save.</div>
         <div class="cmd-block">
-          <div class="cmd"><code>/foundations-setup</code><button class="cmd-copy" type="button" data-copy="/foundations-setup">Copy</button></div>
+          <div class="cmd"><code>/ai-agent-foundation:foundations-setup</code><button class="cmd-copy" type="button" data-copy="/ai-agent-foundation:foundations-setup">Copy</button></div>
         </div>
         <div class="step-desc">Once you send it, Claude will start asking you questions one at a time. Just answer in your own words, like you're talking to an assistant. That's it working.</div>
       </div>
@@ -1125,7 +1134,7 @@
       <h2>Getting updates</h2>
     </div>
     <p class="section-hint">When the Foundation is improved, you don't reinstall anything.</p>
-    <p class="section-note">In <strong>Customize &gt; Plugins</strong>, click the <strong>&middot;&middot;&middot;</strong> next to the <strong>porchlyte-foundations</strong> marketplace and choose <strong>Update</strong>. Claude pulls the latest version. Your Voice, Brand, and Local answers stay exactly as you set them up. Updates only change how the Foundation works, not your personalization.</p>
+    <p class="section-note">Click <strong>Customize</strong> in the left sidebar and find the <strong>porchlyte-foundations</strong> marketplace under <strong>Personal plugins</strong>. Click the <strong>&middot;&middot;&middot;</strong> next to it and choose <strong>Update</strong>. Claude pulls the latest version. Your Voice, Brand, and Local answers stay exactly as you set them up. Updates only change how the Foundation works, not your personalization.</p>
   </section>
 
   <!-- FAQ -->
@@ -1151,22 +1160,22 @@
 
     <details class="faq-item">
       <summary>How long does the Foundation take?<span class="faq-icon">+</span></summary>
-      <div class="faq-body">The install takes seconds. The /foundations-setup interview is the main part: about 15 to 20 minutes for all three (Voice, Brand, Local). You can do one today and come back for the others. Your work saves.</div>
+      <div class="faq-body">The install takes seconds. The setup interview is the main part: about 15 to 20 minutes for all three (Voice, Brand, Local). You can do one today and come back for the others. Your work saves.</div>
     </details>
 
     <details class="faq-item">
       <summary>Can I change my answers later?<span class="faq-icon">+</span></summary>
-      <div class="faq-body">Yes. Re-run /foundations-setup any time and update anything that's changed. Your voice and market evolve, and the Foundation evolves with you.</div>
+      <div class="faq-body">Yes. Re-run the setup command any time and update anything that's changed. Your voice and market evolve, and the Foundation evolves with you.</div>
     </details>
 
     <details class="faq-item">
       <summary>What if a slash command doesn't work?<span class="faq-icon">+</span></summary>
-      <div class="faq-body">First, make sure the plugin is installed (Customize &gt; Plugins). Second, start a brand new chat before running /foundations-setup. Third, close and reopen the desktop app. That solves it about 95% of the time.</div>
+      <div class="faq-body">First, make sure the plugin is installed and activated under Customize. Second, type the full command, including the ai-agent-foundation: part, in a brand new Cowork chat. Third, close and reopen the desktop app. That solves it about 95% of the time.</div>
     </details>
 
     <details class="faq-item">
       <summary>Is my client data safe?<span class="faq-icon">+</span></summary>
-      <div class="faq-body">With the "Help improve Claude" setting turned off (step 03), your conversations are not used for training. Treat your Foundation the way you'd treat any tool that holds business information: don't share more than you need to, and follow your brokerage's data handling rules.</div>
+      <div class="faq-body">With the "Help improve Claude" setting turned off (step 01), your conversations are not used for training. Treat your Foundation the way you'd treat any tool that holds business information: don't share more than you need to, and follow your brokerage's data handling rules.</div>
     </details>
   </section>
 
@@ -1181,8 +1190,8 @@
 
 </div>
 <script>
-  const STORAGE_KEY = 'ash-foundation-install';
-  const totalSteps = 6;
+  const STORAGE_KEY = 'ash-foundation-install-v2';
+  const totalSteps = 7;
 
   function loadProgress() {
     try { const saved = localStorage.getItem(STORAGE_KEY); return saved ? JSON.parse(saved) : {}; }
@@ -1246,5 +1255,6 @@
     });
   }
 </script>
+<script defer src="/.cloud/rum/otel-rum-exporter.js?v=1.0.1"></script>
 </body>
 </html>
